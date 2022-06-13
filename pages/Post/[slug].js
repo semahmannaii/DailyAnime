@@ -55,7 +55,7 @@ export default function Post({ post }) {
       <img src={post.cover.url} alt="" className="mx-auto mb-8 rounded-lg w-96" />
       <h2 className="text-lg sm:text-2xl font-medium text-gray-800 mx-auto mb-8">{post.title}</h2>
       <h4 className="text-sm font-medium text-gray-700 mx-auto mb-5">Published on {post.published}</h4>
-      <h3 className="text-base font-medium text-gray-800 mx-auto mb-8">Created By {post.author.name}</h3>
+      <h3 className="text-base font-medium text-gray-800 mx-auto mb-8">Written By {post.author.name}</h3>
       <p className="leading-relaxed mx-auto mb-5 text-gray-700" dangerouslySetInnerHTML={{ __html: post.content.html }}></p>
     </div>
   )
