@@ -52,7 +52,6 @@ export default function Home({ posts }) {
           ))}
         </div>
       </main>
-      <h3 className="text-center text-gray-700 leading-relaxed text-2xl font-medium mb-8">You reached the end..</h3>
     </div>
   )
 }
