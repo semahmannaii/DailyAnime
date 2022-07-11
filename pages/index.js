@@ -47,7 +47,7 @@ export default function Home({ posts }) {
             <div className="mb-8" key={post.id}>
               <img src={post.cover.url} alt={post.title} className="rounded-lg mx-auto w-2/3" />
               <h2 className="text-lg sm:text-2xl font-medium text-gray-800 mx-auto mt-4 mb-5">{post.title}</h2>
-              <button className="mx-auto text-white bg-rose-700 hover:bg-rose-800 py-2 px-5 rounded"><Link href={"/Post/" + post.slug}>Read</Link></button>
+              <button className="mx-auto text-white bg-rose-700 hover:bg-rose-800 pt-2 px-5 rounded"><Link href={"/Post/" + post.slug}>Read</Link></button>
             </div>
           ))}
         </div>
